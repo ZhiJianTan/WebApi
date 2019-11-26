@@ -96,7 +96,6 @@ class App extends Component {
         <div className="container">
           <div className="col-sm-12">
             <p />
-            //Table
             <ReactTable
               data={data}
               columns={[
