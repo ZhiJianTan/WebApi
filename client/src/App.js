@@ -62,10 +62,7 @@ class App extends Component {
       });
   };
 
-  //https://www.codementor.io/blizzerand/building-forms-using-react-everything-you-need-to-know-iz3eyoq4y
-  //todo add buttons to delete rows
-  //https://codepen.io/aaronschwartz/pen/awOyQq?editors=0010
-  //https://github.com/react-tools/react-table/issues/324
+//Render Webpage UI
   render() {
     var data = this.state.books;
     data = data.reverse();
@@ -99,6 +96,7 @@ class App extends Component {
         <div className="container">
           <div className="col-sm-12">
             <p />
+            //Table
             <ReactTable
               data={data}
               columns={[
